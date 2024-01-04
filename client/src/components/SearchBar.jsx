@@ -6,7 +6,7 @@ function SearchBar(props) {
         <input
           type="text"
           placeholder="หาที่เที่ยวแล้วไปกัน ..."
-          className="w-full mt-2  border-b-2 text-center focus:outline-none"
+          className="w-full mt-2  border-b-2 text-center focus:outline-none focus:border-b-sky-500"
           onChange={(e) => {
             props.setFindPostState(e.target.value);
           }}

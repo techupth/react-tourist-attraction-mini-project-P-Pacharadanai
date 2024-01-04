@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <SearchBar findPostState={findPost} setFindPostState={setFindPost}></SearchBar>
-      <BlogPosts postListState={postList}></BlogPosts>
+      <BlogPosts postListState={postList} findPostState={findPost} setFindPostState={setFindPost}></BlogPosts>
     </div>
   );
 }
